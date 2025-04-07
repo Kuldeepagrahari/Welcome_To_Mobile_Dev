@@ -1,12 +1,12 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet} from 'react-native'
 import React from 'react'
 
-const index = () => {
+const app = () => {
   return (
     <View>
       <Text>Hello Sam</Text>
     </View>
   )
 }
-
-export default index
+const styles = StyleSheet
+export default app
